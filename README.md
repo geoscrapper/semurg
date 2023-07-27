@@ -1,8 +1,7 @@
-# semurg
+# Semurg`
 Semurg` ko'zi 👁
-# X-osint
 This is an osint tool which gathers useful and yet credible valid information about a phone number, user's email address and ip address and more to come in future updates 
-<img src="https://papik.pro/uploads/posts/2021-11/1635964941_1-papik-pro-p-feniks-vektornii-risunok-1.jpg" float="center">
+<img src="" float="center">
 <center>
 <h2><img src="https://img.shields.io/badge/Author-AnonyminHack5-blueviolet"/>
   <img src="https://img.shields.io/badge/Followers%20-%201.9k%20-%20red"/>
@@ -13,9 +12,6 @@ This is an osint tool which gathers useful and yet credible valid information ab
   </h2>
   <hr>
   
-  # Menu
-<img src="images/X-osintv2.1.1.png" alt="X-osintv2.1" float="center"/>
-
   # Features
   1) IP Address information gathering
   2) Email Address information gathering 
@@ -41,11 +37,6 @@ pip
 Internet Connection
 And some other python packages
 ``` 
-[Python 3](https://www.python.org/downloads/)
-
-> git clone https://github.com/geoscrapper/semurg
-
-> cd semurg
 
 #### 3) Grant permissions and run install file
 > chmod +x *
@@ -63,21 +54,6 @@ chmod +x *
 bash setup.sh
 ```
 
-
-# How to update Automatically (if your using version 2.1 of X-Osint and above)
-
-<h4> For linux</h4>
-
-```
-cd $HOME
-
-sudo xosint
-
-And from the menu Type 99 and proceed to selecting linux
-
-```
-
-<h3>
 <hr>
 
 Name: Semurg' ko'zi
@@ -87,23 +63,3 @@ Comment: An osint tool made by Abdulloh Qudratov in python3
 Command: sudo xosint
 
 <hr>
-
-
-#### 3) For the Options
-Tick 
-- [x] Run in terminal
-
-<hr>
-
-```
-Works for Linux 
-Tested 
-```
-# Faqs
-## If your getting the error below which says 
- 1) sudo xosint
-Traceback (most recent call last):
-File "/usr/local/bin/xosint", line 11, in
-from googlesearch import search
-ModuleNotFoundError: No module named 'googlesearch'
-  
