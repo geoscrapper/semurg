@@ -22,7 +22,6 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose your terminal: \e[0m\en
 printf "\e[1;94mStart to install... \e[0m\n"
 sleep 3
 clear || cls
-elif [[ $terminal == "02" || $terminal == "2" ]]; then
 printf "\e[1;94mYou have choosen Linux as your current terminal packages for Linux will Start to install... \e[0m\n"
 sleep 2
 clear || cls 
