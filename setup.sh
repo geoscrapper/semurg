@@ -21,117 +21,17 @@ echo -e "\033[1;91m
 	printf "\e[1;34m\t\t[\e[0m\e[1;77m01\e[0m\e[1;34m]\e[0m\e[1;93mTermux\e[0m\e[1;91m [STABLE]\e[0m\n"
 printf "\e[1;34m\t\t[\e[0m\e[1;77m02\e[0m\e[1;34m]\e[0m\e[1;93mLinux\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose your terminal: \e[0m\en' terminal
-
-if [[ $terminal == "1" || $terminal == "01" ]]; then
 printf "\e[1;94mStart to install... \e[0m\n"
 sleep 3
 clear || cls
-echo -e "\033[1;91m[*] \033[1;97m Allow file/move permission\033[0m"
-echo
-termux-setup-storage
-echo -e "\033[1;91m[*]\033[1;97m Installing Required Packages\033[0m"
-echo 
-echo -e "\033[1;91m[*]\033[1;97m Updating terminal\033[0m"
-echo
-pkg update -y
-echo
-echo -e "\033[1;91m[*]\033[1;97m Upgrading terminal\033[0m"
-pkg upgrade -y
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing All Packages one-time\033[0m"
-pkg install python3
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing db \033[0m"
-pkg install semurgdb
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing Requests\033[0m"
-echo
-pip install requests
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing Pillow\033[0m"
-echo
-pip install pillow==2.2.1
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing resolver\033[0m"
-pip install resolver
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing piexif\033[0m"
-pip install piexif
-echo
-echo -e "\033[1;91m[*]\033[1;97m Removing old packages\033[0m" 
-python3 -m pip uninstall googlesearch-python -y
-python3 -m pip uninstall google-search -y
-python3 -m pip uninstall google -y
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing google\033[0m" 
-pip install google
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing libxslt\033[0m"
-pkg install libxslt
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing IMDb [Might take a while, please be patient]\033[0m"
-pip install IMDbPY
-pip install imdbpy
-echo 
-echo -e "\033[1;91m[*]\033[1;97m Installing Cinemagoer \033[0m"
-pip install cinemagoer
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing prompt-toolkit\033[0m"
-pip install prompt-toolkit
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing vininfo\033[0m"
-pip install vininfo
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing tkinter\033[0m"
-pip install tk-tools
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing phonenumbers\033[0m"
-pip install phonenumbers
-echo
-
-echo -e "\033[1;91m[*]\033[1;97m Installing colorama\033[0m"
-pip install colorama
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing folium\033[0m"
-pip install folium
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing opencage\033[0m"
-pip install opencage
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing Find github\033[0m"
-pip install find-github-email
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing BeautifulSoup4\033[0m"
-pip install bs4
-echo
-echo -e "\033[1;91m[*]\033[1;97m Setting up environment \033[0m"
-echo
-cp -r semurg $PREFIX/bin
-cp -r subdomains.txt $PREFIX/bin
-cd $PREFIX/bin && chmod u+x semurg
-cd $PREFIX/bin && chmod u+x subdomains.txt
-cd $HOME
-rm -rf semurg
-printf "\e[1;91m[*]\e[1;97m Semurg Installed Successfully, Now its ready for use. So re-open your Termux To use Semurg\e[0m\n" 
-printf "\e[1;91m[*]\e[1;97m After reopen your termux just type '\e[1;91mxosint\e[1;97m' to launch Semurg \e[0m" 
-exit
- 
- elif [[ $terminal == "02" || $terminal == "2" ]]; then
+elif [[ $terminal == "02" || $terminal == "2" ]]; then
 printf "\e[1;94mYou have choosen Linux as your current terminal packages for Linux will Start to install... \e[0m\n"
 sleep 2
 clear || cls 
-echo -e "\033[1;91m[*]\033[1;97m Updating Linux\033[0m"
-sudo apt-get update
-echo
-echo -e "\033[1;91m[*]\033[1;97m Upgrading Linux\033[0m"
-sudo apt-get upgrade -y
-echo
-echo -e "\033[1;91m[*]\033[1;97m Installing tor \033[0m"
-sudo apt install tor -y
 echo 
-echo -e "\033[1;91m[*]\033[1;97m Installing Lolcat\033[0m"
+echo -e "\033[1;91m[*]\033[1;97m Installing DB\033[0m"
 echo
-pip install lolcat
+pip install semurgdb
 echo
 echo -e "\033[1;91m[*]\033[1;97m Installing Pillow\033[0m"
 echo
