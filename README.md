@@ -22,9 +22,7 @@
 
 ## Requirements 
 ```
-python-3
-pip
-Internet Connection
+python-3 and pip
 And some other python packages
 ``` 
 [Python 3](https://www.python.org/downloads/)
