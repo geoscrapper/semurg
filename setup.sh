@@ -41,8 +41,8 @@ echo
 echo -e "\033[1;91m[*]\033[1;97m Installing All Packages one-time\033[0m"
 pkg install python3
 echo
-echo -e "\033[1;91m[*]\033[1;97m Installing tor \033[0m"
-pkg install tor
+echo -e "\033[1;91m[*]\033[1;97m Installing db \033[0m"
+pkg install semurgdb
 echo
 echo -e "\033[1;91m[*]\033[1;97m Installing Requests\033[0m"
 echo
