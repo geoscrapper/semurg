@@ -1,13 +1,7 @@
 This is an osint tool which gathers useful and yet credible valid information about a phone number, user's email address and ip address and more to come in future updates 
 <img src="https://miro.medium.com/v2/resize:fit:616/1*XfxdwFib_ROiMePrbNuKyg.jpeg" float="center">
 <center>
-<h2><img src="https://img.shields.io/badge/Author-AnonyminHack5-blueviolet"/>
-  <img src="https://img.shields.io/badge/Followers%20-%201.9k%20-%20red"/>
-  <img src="https://img.shields.io/badge/Tool-X--osint-red"/>
-  <img src="https://img.shields.io/badge/Made%20with-Python%20and%20bash-yellowgreen"/>
-  <img src="https://img.shields.io/badge/Maintained-YES-green"/> <img src="https://img.shields.io/badge/Version-2.1-9cf"/>
-  </center>
-  </h2>
+
   <hr>
 
   # Features
@@ -26,7 +20,6 @@ This is an osint tool which gathers useful and yet credible valid information ab
   13) Protonmail OSINT
   And many more...
 
-  <b>MANY OTHER FEATURES SOON TO COME </b>
 
 ## Requirements 
 ```
