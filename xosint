@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 
-#XOSINT IS AN AUTOMATED OPEN SOURCE INTELLIGENT TOOL
-#CREATED 2023 BY ANONYMINHACK5
-#CREDITS TO SPIDER ANONGREYHAT, D3CRYPTOR, AND TERMUXHACKZ SOCIETY TEAM MEMBERS
-#Credits to pixelbub  
+#Semurg` ko'zi IS AN AUTOMATED threat INTELLIGENT system
+#CREATED 2023 BY Abdulloh Qudratov
+#CREDITS TO SPIDER ANONGREYHAT, D3CRYPTOR, Sec SOCIETY TEAM MEMBERS
+#Credits to Abdulloh  
  #Importing modules and libraries
 
 
@@ -98,7 +98,7 @@ main_menu = ("""
         \033[1;91m[\033[1;33;40m17\033[0m\033[1;91m]\033[1;97m Dark Web Search
         \033[1;91m[\033[1;33;40m18\033[0m\033[1;91m]\033[1;97m Next
         \033[1;91m[\033[1;33;40m19\033[0m\033[1;91m]\033[1;97m Report bugs
-	\033[1;91m[\033[1;33;40m99\033[0m\033[1;91m]\033[1;97m Update X-osint
+	\033[1;91m[\033[1;33;40m99\033[0m\033[1;91m]\033[1;97m Update Semurg
 	\033[1;91m[\033[1;33;40m100\033[0m\033[1;91m]\033[1;97m About
 	\033[1;91m[\033[1;33;40m00\033[0m\033[1;91m]\033[1;97m Quit
 	
