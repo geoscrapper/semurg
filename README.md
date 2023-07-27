@@ -1,10 +1,9 @@
-SEMURG` KO'ZI
 <img src="https://miro.medium.com/v2/resize:fit:616/1*XfxdwFib_ROiMePrbNuKyg.jpeg" float="center">
 <center>
 
   <hr>
 
-  # Features
+  # SEMURG` KO'ZI - Features
   1) IP Address information gathering
   2) Email Address information gathering 
   3) Phone number information gathering 
