@@ -16,7 +16,7 @@ echo -e "\033[1;91m
  Version: \033[1;92m2.1
    \033[0m"
    echo
-	printf "\e[1;34m\tSelect your terminal to install X-osint \e[0m\n"
+	printf "\e[1;34m\tSelect your terminal to install Semurg` ko'zi \e[0m\n"
 	printf "\e[1;91m\t[!] PLEASE MAKE SURE YOU CHOOSE CORRECTLY [!] \e[0m\n\n"
 	printf "\e[1;34m\t\t[\e[0m\e[1;77m01\e[0m\e[1;34m]\e[0m\e[1;93mTermux\e[0m\e[1;91m [STABLE]\e[0m\n"
 printf "\e[1;34m\t\t[\e[0m\e[1;77m02\e[0m\e[1;34m]\e[0m\e[1;93mLinux\e[0m\n"
