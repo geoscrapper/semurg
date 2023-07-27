@@ -1,4 +1,4 @@
-This is an osint tool which gathers useful and yet credible valid information about a phone number, user's email address and ip address and more to come in future updates 
+SEMURG` KO'ZI
 <img src="https://miro.medium.com/v2/resize:fit:616/1*XfxdwFib_ROiMePrbNuKyg.jpeg" float="center">
 <center>
 
