@@ -28,7 +28,7 @@ clear || cls
 echo 
 echo -e "\033[1;91m[*]\033[1;97m Installing DB\033[0m"
 echo
-pip install semdb
+pip install semdber
 echo
 echo -e "\033[1;91m[*]\033[1;97m Installing Pillow\033[0m"
 echo
